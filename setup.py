@@ -23,7 +23,6 @@ setup(
         'console_scripts': ['img2h=img2h.command_line:convert'],
     },
     install_requires=[
-        'pillow',
         'click'
     ],
     long_description=read('README.md'),
